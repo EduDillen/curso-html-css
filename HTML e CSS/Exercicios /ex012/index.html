@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo vídeos hospedados localmente</title>
+</head>
+<body>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+     <video width="560" poster="imagens/war.png" controls loop>
+        <source src="midia/video.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+        <!--A ordem tem total influência-->
+        <!--Hospedar videos assim usa muito trafego de dados-->
+    </video>
+
+    <h1>Insetrindo Vídeos do YT</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IckDvmEdBS8?si=cXsszGUsrvWXkfzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--usar youtube para economizar dados-->
+<!--video m4v é importante, usar HandBrake para transformar -->
+</body>
+</html>
